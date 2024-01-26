@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="statusPain" prefHeight="620.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/20.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cajero_poo.controllers.statusController">
+   <Label layoutX="311.0" layoutY="302.0" style="-fx-background-color: #a62107;" AnchorPane.bottomAnchor="0.0"
+          AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+   <ImageView fitHeight="168.0" fitWidth="189.0" layoutX="241.0" layoutY="194.0" pickOnBounds="true"
+              preserveRatio="true">
+      <Image url="@assets/images/tache.png"/>
+   </ImageView>
+   <Label alignment="CENTER" layoutX="85.0" layoutY="105.0" prefHeight="37.0" prefWidth="481.0"
+          text="ERROR CON LA OPERACION" textFill="WHITE">
+      <font>
+         <Font name="Comic Sans MS" size="34.0"/>
+      </font>
+   </Label>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="362.0" prefHeight="186.0" prefWidth="602.0"
+          style="-fx-text-alignment: center;"
+          text="Ha ocurrido un error con la transaccion u operacion que se&#10;deseaba realizar.&#10;Intentelo de nuevo, si el problema persiste llame&#10;a un supervisor. ">
+      <font>
+         <Font name="System Bold" size="21.0"/>
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="157.0" layoutY="548.0" prefHeight="32.0" prefWidth="336.0"
+          text="Presiona la tecla ENTER para volver al menu" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="15.0"/>
+      </font>
+   </Label>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="balancePane" prefHeight="620.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cajero_poo.controllers.balanceController">
+    <Label layoutX="311.0" layoutY="175.0" style="-fx-background-color: #1b3fb5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Label fx:id="saldo" layoutX="45.0" layoutY="262.0" prefHeight="171.0" prefWidth="562.0" textFill="WHITE" />
+    <Label layoutX="81.0" layoutY="14.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="590.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Label layoutX="10.0" layoutY="10.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="590.0" />
+    <ImageView fitHeight="171.0" fitWidth="181.0" layoutX="240.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@assets/images/interrogative.png" />
+    </ImageView>
+   <Button alignment="CENTER" contentDisplay="CENTER" layoutX="262.0" layoutY="504.0" mnemonicParsing="false" onAction="#actionsBack" prefHeight="43.0" prefWidth="126.0" style="-fx-background-color: #ad314e; -fx-border-color: black;            -fx-border-width: 1.8; -fx-border-radius: 12; -fx-background-radius: 12;" text="Regresar">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <Label layoutX="262.0" layoutY="2.0" text="Consulta Saldo">
+      <font>
+         <Font name="System Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="77.0" layoutY="433.0" prefHeight="71.0" prefWidth="497.0" text="Si tienes alguna duda sobre tu saldo actual favor de comunicarse con un encargado&#10;                                                para resolver el problema.&#10;" textFill="#da1414" />
+</AnchorPane>

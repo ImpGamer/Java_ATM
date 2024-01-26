@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="statusPain" prefHeight="620.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/20.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cajero_poo.controllers.statusController">
+   <Label layoutX="264.0" layoutY="236.0" style="-fx-background-color: #15bd44;" AnchorPane.bottomAnchor="0.0"
+          AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+   <ImageView fitHeight="179.0" fitWidth="181.0" layoutX="236.0" layoutY="141.0" pickOnBounds="true"
+              preserveRatio="true">
+      <Image url="@assets/images/green.png"/>
+   </ImageView>
+   <Label alignment="CENTER" layoutX="95.0" layoutY="45.0" prefHeight="74.0" prefWidth="461.0" text="OPERACION EXITOSA!"
+          textFill="WHITE">
+      <font>
+         <Font name="Comic Sans MS Bold" size="37.0"/>
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="53.0" layoutY="343.0" prefHeight="158.0" prefWidth="546.0"
+          style="-fx-text-alignment: center;"
+          text="La operacion se ha realizado con exito&#10;, los cambios como depositos o retiros&#10;se podran ver inmediatamente consultando&#10;el saldo.">
+      <font>
+         <Font name="System Bold" size="25.0"/>
+      </font>
+   </Label>
+   <AnchorPane layoutX="298.0" layoutY="541.0">
+      <Label alignment="CENTER" layoutX="-136.0" layoutY="-18.0" prefHeight="37.0" prefWidth="328.0"
+             text="Presione la tecla ENTER para volver al menu" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0"/>
+         </font>
+      </Label>
+   </AnchorPane>
+</AnchorPane>
